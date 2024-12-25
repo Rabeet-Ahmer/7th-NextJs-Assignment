@@ -13,6 +13,7 @@ const play = Playfair_Display({
 const poppins = Poppins({
   weight:["400","700"],
   variable: "--font-poppins",
+  subsets: ["latin"],
 });
 
 const geistSans = Geist({
